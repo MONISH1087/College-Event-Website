@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.event-title {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.event-info {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.event-description {
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Schedule Table Styling */
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.schedule th,
+.schedule td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+}
+
+.schedule th {
+    background-color: #34495e;
+    color: #ffffff;
+}
+
+/* Button Styling */
+.btn-container {
+    text-align: center;
+}
+
+.register-btn {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.register-btn:hover {
+    background-color: #1f618d;
+}
